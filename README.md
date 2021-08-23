@@ -27,11 +27,16 @@ before the extension been published on civicrm public extension, you can downloa
 install it on your CMS.
 
 ## Work done
-* Before been able to implement multi currency feature, I notice that multicurrency type table doesn't involve any currency (the table schema doesn't envolve any currency column. It envolves minimum fee without a currency for it). That is why I made a pull on the civi core repository to incorporate it. ([pull link]()).
-* I worked also on the UI part. The admin can easily all which currencies the user can use : (image...).
-* Also about the UI, I built a good UI to allow a given user to choose a currency for paying its membership fees depending on the one set by the admin (image...). 
+* Before been able to implement multi currency feature, I notice that multicurrency type table doesn't involve any currency (the table schema doesn't envolve any currency column. It envolves minimum fee without a currency column for it). That is why I made a pull on the civi core repository to incorporate add a colum currency to membership type table ([pull link]()).
 
+* I worked also on the UI part. The admin can easily add which currencies the user can use : ![screenshot](https://user-images.githubusercontent.com/52603013/130440316-ea185921-3687-4f8e-b7eb-98bb9e489f09.png)
+.
+
+* Also about the UI, I built a good UI to allow a given user to choose a currency for paying its membership fees depending on the one set by the admin
+![civi_front](https://user-images.githubusercontent.com/52603013/130440184-6986650b-1c7b-456a-8dbc-b9f87e08b2bd.png)
+ 
+ 
  ## TODO
  * Create civicrm_multicurrency_membership_type table which contains a reference to membership_type table.
- * fetch in the public user membership page all membership fees and currencies store in the database because for now it is predifined data which are displayed. 
+ * fetch in the public user membership page all civicrm_multicurrency_membership_type records store in the database because for now it is predifined data which are displayed. 
  * Write unit test.
