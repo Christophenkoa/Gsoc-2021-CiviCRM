@@ -21,6 +21,7 @@
 
 ## Documentation
 * https://docs.civicrm.org/
+* https://wiki.civicrm.org/
 
 ## Install the extension
 before the extension been published on civicrm public extension, you can download it [here](https://github.com/Christophenkoa/gsoc_multi_currency_civi_crm) and
