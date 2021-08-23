@@ -11,10 +11,12 @@
 
 **Description:** CiviCRM supports membership payment fees using only dollar currency. Project objective is to create New extension which allows user to pay membership fees through local currency.
 
-## My extension Code
+## Code section
+
+**My extension code** where most of the work has been done.
 * https://github.com/Christophenkoa/gsoc_multi_currency_civi_crm
 
-## commit (civi-core)
+**Commit (civi-core)** where the database schema of the civi core has been altering (membership_type table).
 * https://github.com/Christophenkoa/civicrm-core/commit/5f3e63e92a3426d8ddf24dddc7e8f1f14167a043
 
 ## Repositories involved
