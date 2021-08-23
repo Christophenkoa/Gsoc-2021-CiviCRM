@@ -38,6 +38,6 @@ install it on your CMS.
  
  
  ## TODO
- * Create civicrm_multicurrency_membership_type table which contains a reference to membership_type table.
+ * Create civicrm_multicurrency_membership_type table which contains a reference to membership_type table(currently working on).
  * fetch in the public user membership page all civicrm_multicurrency_membership_type records store in the database because for now it is predifined data which are displayed. 
  * Write unit test.
