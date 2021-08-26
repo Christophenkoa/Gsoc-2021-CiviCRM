@@ -32,7 +32,7 @@ before the extension been published on civicrm public extension, you can clone i
 install it on your favorite CMS.
 
 ## Work done
-* Before been able to implement multi currency feature, I notice that multicurrency type table doesn't involve any currency (the table schema doesn't envolve any currency column. It envolves minimum fee without a currency column for it). That is why I made a pull on the civi core repository to incorporate add a colum currency to membership type table ([pull link]()).
+* Before been able to implement multi currency feature, I notice that multicurrency type table doesn't involve any currency (the table schema doesn't envolve any currency column. It envolves minimum fee without a currency column for it). That is why I made a pull on the civi core repository to incorporate add a colum currency to membership type table ([pull link](https://github.com/civicrm/civicrm-core/pull/21267)).
 
 * I worked also on the UI part. The admin can easily add which currencies the user can use : ![screenshot](https://user-images.githubusercontent.com/52603013/130440316-ea185921-3687-4f8e-b7eb-98bb9e489f09.png)
 .
