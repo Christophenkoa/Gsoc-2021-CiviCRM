@@ -17,7 +17,7 @@
 * https://github.com/Christophenkoa/gsoc_multi_currency_civi_crm
 
 **Commit (civi-core)** where the database schema of the civi core has been altering (membership_type table).
-* https://github.com/Christophenkoa/civicrm-core/commit/8030b8394a813fdab86e376ed0d3613dc015fe12
+* https://github.com/Christophenkoa/civicrm-core/commit/1999fc709252feb0c0dccaa993106c4cdaff9105
 
 ## Repositories involved
 * https://github.com/civicrm/civicrm-core
